@@ -26,7 +26,7 @@ const Formulario = ({addTodos}) => {
       });
       return;
     }
-    console.log(title, descripcion, state, priority);
+    
     addTodos({
       id:Date.now(),
       ...todo,
